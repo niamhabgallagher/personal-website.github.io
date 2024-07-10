@@ -21,7 +21,7 @@
                     href="mailto:niamhabgallagher14@gmail.com" target="_blank"></v-btn>
             </v-col>
         </v-row>
-        <v-row style="margin-bottom: 5vh;">
+        <v-row>
             <v-col offset="2" cols="8">
                 <h2 class="subtitle">About Me</h2>
             </v-col>
@@ -105,6 +105,38 @@
                 <div class="personal-square-2 image-square"></div>
             </v-col>
         </v-row>
+        <v-row style="margin-bottom: 5vh; margin-top: 5vh;" class="text-center">
+            <v-col offset="2" cols="8" class="text-left">
+                <h2 class="subtitle">Experience</h2>
+            </v-col>
+            <v-col cols="2"></v-col>
+            <v-col offset="4" cols="4">
+                <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
+            <v-col cols="4"></v-col>
+            <v-col offset="3" cols="2">
+                <img class="experience" src="/images/experience-logos/vuejs.webp" />
+            </v-col>
+            <v-col cols="2">
+                <img class="experience" src="/images/experience-logos/nuxt.png" />
+            </v-col>
+            <v-col cols="2">
+                <img class="experience" src="/images/experience-logos/JavaScript.png" />
+            </v-col>
+            <v-col cols="3"></v-col>
+            <v-col offset="3" cols="2">
+                <img class="experience" src="/images/experience-logos/typescript.png" />
+            </v-col>
+            <v-col cols="2">
+                <img class="experience" src="/images/experience-logos/html.png" />
+            </v-col>
+            <v-col cols="2">
+                <img class="experience" style="width: 70%;" src="/images/experience-logos/css.svg" />
+            </v-col>
+            <v-col offset="4" cols="4">
+                <v-divider class="border-opacity-50"></v-divider>
+            </v-col>
+        </v-row>
     </div>
 </template>
 
@@ -143,5 +175,7 @@
 p {
     font-size: 18px;
 }
-
+.experience {
+    width: 100%;
+}
 </style>
