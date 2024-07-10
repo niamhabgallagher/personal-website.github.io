@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <v-app-bar elevation="0" class="text-center app-bar">
-            <v-toolbar-title style="color: #fff; font-weight: bold;">
+            <v-toolbar-title class="website-title">
                 Niamh Gallagher
             </v-toolbar-title>
 
@@ -60,5 +60,9 @@ export default {
 }
 .app-bar {
     background-color: $primary !important;
+}
+
+.website-title {
+    color: #fff;
 }
 </style>

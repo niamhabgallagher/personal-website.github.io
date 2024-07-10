@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets'
   },
+  modules: [
+    'nuxt-lenis'
+  ],
   css: [
     'vuetify/lib/styles/main.sass',
     '@mdi/font/css/materialdesignicons.min.css',

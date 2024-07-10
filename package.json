@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
+    "lenis": "^1.0.45",
+    "nuxt-lenis": "^1.1.0",
     "sass": "^1.70.0",
     "scss": "^0.2.4",
     "vuetify": "^3.5.1"
