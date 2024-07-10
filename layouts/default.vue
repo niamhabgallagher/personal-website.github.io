@@ -2,10 +2,10 @@
     <v-app>
         <v-app-bar elevation="0" class="text-center app-bar">
             <v-toolbar-title class="website-title">
-                Niamh Gallagher
+                <h1>Niamh Gallagher</h1>
             </v-toolbar-title>
 
-            <v-tabs
+            <!-- <v-tabs
             v-model="tab"
             align-tabs="title"
             style="justify-content: center; color: #fff;"
@@ -18,7 +18,7 @@
                 >
                     {{ item.title }}
                 </v-tab>
-            </v-tabs>
+            </v-tabs> -->
         </v-app-bar>
         <v-main>
             <slot />
@@ -53,16 +53,27 @@ export default {
 
 <style lang="scss">
 .v-application {
-    background-color: $bg-light !important;
+    background-color: $primary-2 !important;
 }
 .v-card {
-    background-color: $bg-light !important;
+    background-color: $primary-2 !important;
 }
 .app-bar {
-    background-color: $primary !important;
+    background-color: $primary-2 !important;
+    border-bottom: 1px #000 solid;
 }
 
 .website-title {
-    color: #fff;
+    font-family: 'Dancing Script', sans-serif;
+    overflow: visible;
+    font-size: 1rem;
+    text-align: left;
+}
+html {
+    font-family: Poppins, sans-serif;
+}
+
+.v-toolbar-title__placeholder {
+    overflow: visible;
 }
 </style>

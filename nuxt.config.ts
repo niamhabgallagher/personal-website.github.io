@@ -5,9 +5,12 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets'
   },
-  modules: [
-    'nuxt-lenis'
-  ],
+  modules: ['nuxt-lenis', ['@nuxtjs/google-fonts', {
+    families: {
+      'Dancing Script': true,
+      Poppins: true
+    }
+}]],
   css: [
     'vuetify/lib/styles/main.sass',
     '@mdi/font/css/materialdesignicons.min.css',
@@ -23,7 +26,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@use "~/assets/css/_colors.scss" as *;'
+          additionalData: '@use "~/assets/css/_colors.scss" as *;',
         }
       }
     },
