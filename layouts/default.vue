@@ -28,6 +28,11 @@
 
 <script>
 export default {
+    setup() {
+        useHead({
+            title: 'Niamh Gallagher'
+        })
+    },
     data() {
         return {
             tab: 0,
