@@ -53,13 +53,13 @@ export default {
 
 <style lang="scss">
 .v-application {
-    background-color: $primary-2 !important;
+    background-color: $primary !important;
 }
 .v-card {
     background-color: $primary-2 !important;
 }
 .app-bar {
-    background-color: $primary-2 !important;
+    background-color: $primary !important;
     border-bottom: 1px #000 solid;
 }
 
