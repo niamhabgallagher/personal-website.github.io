@@ -6,7 +6,7 @@
             </v-col>
             <v-col>
                 <!-- Intro in irish -->
-                <h2>Dia Duit! Is mise Niamh!</h2>
+                <h2>Dia Duit! Is mise Niamh! 🇮🇪</h2>
             </v-col>
             <v-col cols="12">
                 <!-- intro in english -->
@@ -30,7 +30,7 @@
             </v-col>
             <v-col cols="4">
                 <v-card style="height: 100%; border-radius: 15px;">
-                    <v-card-title style="margin-top: 1rem;"><h3>Work</h3></v-card-title>
+                    <v-card-title style="margin-top: 1rem;"><h3>Work 💼</h3></v-card-title>
                     <v-card-text>
                         <p>
                             <br/>
@@ -47,7 +47,7 @@
             </v-col>
             <v-col offset="2" cols="4">
                 <v-card style="height: 100%; border-radius: 15px;">
-                    <v-card-title style="margin-top: 1rem;"><h3>Community</h3></v-card-title>
+                    <v-card-title style="margin-top: 1rem;"><h3>Community 👯‍♀️</h3></v-card-title>
                     <v-card-text>
                         <p>
                             <br/>
@@ -70,7 +70,7 @@
             </v-col>
             <v-col cols="4">
                 <v-card style="height: 100%; border-radius: 15px;">
-                    <v-card-title style="margin-top: 1rem;"><h3>Personal</h3></v-card-title>
+                    <v-card-title style="margin-top: 1rem;"><h3>Personal 🧶</h3></v-card-title>
                     <v-card-text>
                         <p>
                             <br/>
@@ -86,7 +86,7 @@
             </v-col>
             <v-col offset="2" cols="4">
                 <v-card style="height: 100%; border-radius: 15px;">
-                    <v-card-title style="margin-top: 1rem;"><h3>Personal continued...</h3></v-card-title>
+                    <v-card-title style="margin-top: 1rem;"><h3>Personal continued... 🐶</h3></v-card-title>
                     <v-card-text>
                         <p>
                             <br/>
@@ -113,7 +113,7 @@
             <v-col offset="4" cols="4">
                 <v-divider class="border-opacity-50"></v-divider>
             </v-col>
-            <v-col cols="4"></v-col>
+            <!-- <v-col cols="4"></v-col>
             <v-col offset="3" cols="2">
                 <img class="experience" src="/images/experience-logos/vuejs.webp" />
             </v-col>
@@ -132,7 +132,12 @@
             </v-col>
             <v-col cols="2">
                 <img class="experience" style="width: 70%;" src="/images/experience-logos/css.svg" />
+            </v-col> -->
+
+            <v-col cols="12">
+                <ExperienceSlide />
             </v-col>
+
             <v-col offset="4" cols="4">
                 <v-divider class="border-opacity-50"></v-divider>
             </v-col>
@@ -141,6 +146,13 @@
 </template>
 
 <script>
+import ExperienceSlide from "../components/ExperienceSlide.vue";
+
+export default {
+    components: {
+        ExperienceSlide,
+    }
+}
 </script>
 
 <style lang="scss">
@@ -170,7 +182,8 @@
     background-size: cover;
     border-radius: 15px;
     width: 100%;
-    height: 350px;
+    height: 100%;
+    min-height: 350px;
 }
 p {
     font-size: 18px;
