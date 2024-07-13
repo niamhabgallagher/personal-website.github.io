@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: '/',
+    baseURL: '/personal-website.github.io/',
     buildAssetsDir: 'assets'
   },
   modules: ['nuxt-lenis', ['@nuxtjs/google-fonts', {
