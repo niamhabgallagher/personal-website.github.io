@@ -1,7 +1,7 @@
 <template>
     <v-footer color="#000">
         <v-row>
-            <v-col offset="1" cols="10">
+            <v-col cols="12" offset-md="1" md="10">
                 <p>
                     Let's connect!
                     <v-btn icon="mdi-github" class="footer-btns" color="transparent" title="Github"
