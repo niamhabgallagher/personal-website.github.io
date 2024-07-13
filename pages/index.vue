@@ -39,7 +39,7 @@
                             technologies.
                             <br/> <br/>
                             I've worked in the Baltic Triangle the whole time I have lived in 
-                            Liverpool, in the same building! First for The Baltic Social append 
+                            Liverpool, in the same building! First for The Baltic Social and 
                             then I moved upstairs to vTime!
                         </p>
                     </v-card-text>
@@ -142,15 +142,35 @@
                 <v-divider class="border-opacity-50"></v-divider>
             </v-col>
         </v-row>
+        <!-- <v-row class="text-center">
+            <v-col offset="2" cols="3">
+                <p>
+                    Click 
+                    <a href="/files/CV-2024.pdf" download="">
+                        here
+                    </a>
+                    to download an up to date CV
+                </p>
+            </v-col>
+            <v-col cols="2">
+                <p>OR</p>
+            </v-col>
+            <v-col cols="2">
+                <p>Send me an <a href="mailto:niamhabgallagher14@gmail.com" target="_blank">email</a> and we can chat!</p>
+            </v-col>
+        </v-row> -->
+        <Footer />
     </div>
 </template>
 
 <script>
-import ExperienceSlide from "../components/ExperienceSlide.vue";
+import ExperienceSlide from "~/components/ExperienceSlide.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
     components: {
         ExperienceSlide,
+        Footer
     }
 }
 </script>
