@@ -87,26 +87,6 @@ export default {
     font-size: 2rem;
     font-style: italic;
 }
-.cupcake-square {
-    background-image: url(/images/cupcake.jpeg);
-}
-.community-square {
-    background-image: url(/images/women-in-tech.JPG);
-}
-.personal-square {
-    background-image: url(/images/festival-essentials.jpeg);
-}
-.personal-square-2 {
-    background-image: url(/images/soup-hat.jpeg);
-}
-.image-square {
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    width: 100%;
-    height: 100%;
-    min-height: 350px;
-}
 p {
     font-size: 18px;
 }
