@@ -11,7 +11,7 @@
                     <v-btn icon="mdi-email" class="footer-btns" color="transparent" title="Email me"
                         href="mailto:niamhabgallagher14@gmail.com" target="_blank"></v-btn>
                     <v-btn icon="mdi-file-account" class="footer-btns" color="transparent" title="Download my CV!"
-                        href="/files/CV-2024.pdf" download=""></v-btn>
+                        href="files/CV-2024.pdf" download></v-btn>
                 </p>
             </v-col>
         </v-row>
