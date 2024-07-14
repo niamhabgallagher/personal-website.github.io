@@ -2,7 +2,9 @@
     <div>
         <v-row class="text-center" style="margin-top: 5vh;">
             <v-col cols="12">
-                <v-avatar image="/images/selfie.jpg" size="300"></v-avatar>
+                <v-avatar size="300">
+                    <img src="/images/selfie.jpg" style="width: 100%;" />
+                </v-avatar>
             </v-col>
             <v-col>
                 <!-- Intro in irish -->
@@ -30,31 +32,9 @@
             <v-col offset="4" cols="4">
                 <v-divider class="border-opacity-50"></v-divider>
             </v-col>
-            <!-- <v-col cols="4"></v-col>
-            <v-col offset="3" cols="2">
-                <img class="experience" src="/images/experience-logos/vuejs.webp" />
-            </v-col>
-            <v-col cols="2">
-                <img class="experience" src="/images/experience-logos/nuxt.png" />
-            </v-col>
-            <v-col cols="2">
-                <img class="experience" src="/images/experience-logos/JavaScript.png" />
-            </v-col>
-            <v-col cols="3"></v-col>
-            <v-col offset="3" cols="2">
-                <img class="experience" src="/images/experience-logos/typescript.png" />
-            </v-col>
-            <v-col cols="2">
-                <img class="experience" src="/images/experience-logos/html.png" />
-            </v-col>
-            <v-col cols="2">
-                <img class="experience" style="width: 70%;" src="/images/experience-logos/css.svg" />
-            </v-col> -->
-
             <v-col cols="12">
                 <ExperienceSlide />
             </v-col>
-
             <v-col offset="4" cols="4">
                 <v-divider class="border-opacity-50"></v-divider>
             </v-col>

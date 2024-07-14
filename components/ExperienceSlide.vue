@@ -10,17 +10,124 @@
         show-arrows
       >
         <v-slide-group-item
-          v-for="n in content"
-          :key="n.name"
           v-slot="{ isSelected, toggle, selectedClass }"
         >
           <v-card
             :class="['ma-4', selectedClass]"
+            class="vue-slide slides"
             height="150"
             width="150"
             @click="toggle"
-            :style="'background-image: url(' + n.imageUrl + ');'"
-            style="background-color: $primary-2; background-size: cover;"
+          >
+            <div class="d-flex fill-height align-center justify-center">
+              <v-scale-transition>
+                <v-icon
+                  v-if="isSelected"
+                  color="white"
+                  icon="mdi-eye"
+                  size="48"
+                ></v-icon>
+              </v-scale-transition>
+            </div>
+          </v-card>
+        </v-slide-group-item>
+        <v-slide-group-item
+          v-slot="{ isSelected, toggle, selectedClass }"
+        >
+          <v-card
+            :class="['ma-4', selectedClass]"
+            class="nuxt-slide slides"
+            height="150"
+            width="150"
+            @click="toggle"
+          >
+            <div class="d-flex fill-height align-center justify-center">
+              <v-scale-transition>
+                <v-icon
+                  v-if="isSelected"
+                  color="white"
+                  icon="mdi-eye"
+                  size="48"
+                ></v-icon>
+              </v-scale-transition>
+            </div>
+          </v-card>
+        </v-slide-group-item>
+        <v-slide-group-item
+          v-slot="{ isSelected, toggle, selectedClass }"
+        >
+          <v-card
+            :class="['ma-4', selectedClass]"
+            class="javascript-slide slides"
+            height="150"
+            width="150"
+            @click="toggle"
+          >
+            <div class="d-flex fill-height align-center justify-center">
+              <v-scale-transition>
+                <v-icon
+                  v-if="isSelected"
+                  color="white"
+                  icon="mdi-eye"
+                  size="48"
+                ></v-icon>
+              </v-scale-transition>
+            </div>
+          </v-card>
+        </v-slide-group-item>
+        <v-slide-group-item
+          v-slot="{ isSelected, toggle, selectedClass }"
+        >
+          <v-card
+            :class="['ma-4', selectedClass]"
+            class="html-slide slides"
+            height="150"
+            width="150"
+            @click="toggle"
+          >
+            <div class="d-flex fill-height align-center justify-center">
+              <v-scale-transition>
+                <v-icon
+                  v-if="isSelected"
+                  color="white"
+                  icon="mdi-eye"
+                  size="48"
+                ></v-icon>
+              </v-scale-transition>
+            </div>
+          </v-card>
+        </v-slide-group-item>
+        <v-slide-group-item
+          v-slot="{ isSelected, toggle, selectedClass }"
+        >
+          <v-card
+            :class="['ma-4', selectedClass]"
+            class="css-slide slides"
+            height="150"
+            width="150"
+            @click="toggle"
+          >
+            <div class="d-flex fill-height align-center justify-center">
+              <v-scale-transition>
+                <v-icon
+                  v-if="isSelected"
+                  color="white"
+                  icon="mdi-eye"
+                  size="48"
+                ></v-icon>
+              </v-scale-transition>
+            </div>
+          </v-card>
+        </v-slide-group-item>
+        <v-slide-group-item
+          v-slot="{ isSelected, toggle, selectedClass }"
+        >
+          <v-card
+            :class="['ma-4', selectedClass]"
+            class="typescript-slide slides"
+            height="150"
+            width="150"
+            @click="toggle"
           >
             <div class="d-flex fill-height align-center justify-center">
               <v-scale-transition>
@@ -112,5 +219,29 @@ export default {
 
 .content-card {
   background-color: $primary !important;
+}
+
+.slides {
+  background-size: cover;
+  background-color: $primary-2;
+}
+
+.vue-slide {
+  background-image: url(/images/experience-logos/vuejs.webp);
+}
+.nuxt-slide {
+  background-image: url(/images/experience-logos/nuxt.png);
+}
+.javascript-slide {
+  background-image: url(/images/experience-logos/JavaScript.png);
+}
+.html-slide {
+  background-image: url(/images/experience-logos/html.png);
+}
+.css-slide {
+  background-image: url(/images/experience-logos/css.webp);
+}
+.typescript-slide {
+  background-image: url(/images/experience-logos/typescript.png);
 }
 </style>

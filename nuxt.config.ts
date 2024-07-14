@@ -1,9 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
   devtools: { enabled: true },
   app: {
     baseURL: '/personal-website.github.io/',
-    buildAssetsDir: 'assets'
+    buildAssetsDir: 'assets',
+    head: {
+      link: [{ rel: 'icon', type: 'image/png', href: "/favicon.ico" }]
+    }
   },
   modules: ['nuxt-lenis', ['@nuxtjs/google-fonts', {
     families: {
