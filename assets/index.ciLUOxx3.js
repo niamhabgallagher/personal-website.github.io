@@ -1,0 +1,1 @@
+import{_ as a,E as n,A as e,i as t,t as r,z as _,B as s}from"./entry.oTrMlpbz.js";const d={};function l(f,i){const c=t("v-card-title"),o=t("v-card");return r(),n(o,null,{default:e(()=>[_(c,null,{default:e(()=>[s("About Me")]),_:1})]),_:1})}const p=a(d,[["render",l]]);export{p as default};
