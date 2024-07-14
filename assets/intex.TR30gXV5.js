@@ -1,1 +1,0 @@
-import{_ as a,E as n,A as e,i as t,t as r,z as _,B as s}from"./entry.vPUjUNfl.js";const l={};function d(f,i){const c=t("v-card-title"),o=t("v-card");return r(),n(o,null,{default:e(()=>[_(c,null,{default:e(()=>[s("Contact Me")]),_:1})]),_:1})}const u=a(l,[["render",d]]);export{u as default};
